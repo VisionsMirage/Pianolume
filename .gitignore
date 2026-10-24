@@ -1,0 +1,13 @@
+# ビルド成果物
+build/
+out/
+.vs/
+.vscode/
+*.user
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 開発用の音源（配布物には含めない）
+dev-assets/
