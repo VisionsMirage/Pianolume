@@ -5,7 +5,11 @@
 Pianolume is a piano practice app that projects falling notes onto your real keyboard.
 Think "Synthesia + projection mapping": a projector shows bars falling toward the keys, lights each key at the moment you should press it, and follows what you actually play over MIDI.
 
-![Main window](docs/images/main-window.png)
+<p align="center">
+  <a href="docs/images/pianolume_play.mp4"><img src="docs/images/pianolume.png" width="520" alt="Pianolume projecting onto an iRig Keys 37 Pro"></a>
+  <br>
+  <a href="docs/images/pianolume_play.mp4">▶ Watch the demo video (20 s)</a>
+</p>
 
 > **Status:** early development (v0.1). Windows only. Developed and tested with an IK Multimedia iRig Keys 37 Pro.
 
@@ -19,6 +23,14 @@ Think "Synthesia + projection mapping": a projector shows bars falling toward th
 - **Built-in synth:** FluidSynth with any `.sf2` / `.sf3` SoundFont, WASAPI shared or exclusive mode, and a limiter
 - **Keyboard support:** choose from 25 to 88 keys and detect the lowest key automatically. The app follows your keyboard's octave buttons and switches sounds with program change messages
 - **Different keyboard sizes:** the screen keyboard can be wider than your input keyboard. Notes outside your keyboard's range are greyed out and played automatically
+
+## Screenshots
+
+The main window shows the same falling notes as the projection.
+
+![Main window](docs/images/main-window.png)
+
+In the calibration editor, you drag the corners onto the real keyboard.
 
 ![Calibration](docs/images/calibration.png)
 

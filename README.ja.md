@@ -5,7 +5,11 @@
 Pianolume は、プロジェクタで本物の鍵盤に押し順を映すピアノ練習アプリです。
 イメージは「Synthesia ＋ プロジェクションマッピング」です。鍵盤の奥から手前へバーが流れてきて、押すタイミングで鍵が光ります。MIDI で受け取った実際の演奏にも反応します。
 
-![操作画面](docs/images/main-window.png)
+<p align="center">
+  <a href="docs/images/pianolume_play.mp4"><img src="docs/images/pianolume.png" width="520" alt="iRig Keys 37 Pro に投影しているところ"></a>
+  <br>
+  <a href="docs/images/pianolume_play.mp4">▶ デモ動画を見る（20 秒）</a>
+</p>
 
 > **状態:** 開発の初期段階（v0.1）です。Windows のみ対応しています。開発と動作確認には IK Multimedia iRig Keys 37 Pro を使っています。
 
@@ -19,6 +23,14 @@ Pianolume は、プロジェクタで本物の鍵盤に押し順を映すピア�
 - **内蔵音源**: FluidSynth で `.sf2` / `.sf3` の SoundFont を鳴らします。WASAPI の共有 / 排他モードとリミッターに対応しています
 - **キーボード対応**: 25〜88 鍵から選べて、最低音は自動で検出できます。キーボードのオクターブボタンに追随し、プログラムチェンジで音色を切り替えます
 - **鍵数の違い**: 画面の鍵盤を手元のキーボードより広くできます。範囲外の音はグレーで表示し、自動で演奏します
+
+## スクリーンショット
+
+操作画面にも、投影と同じ落下バーが表示されます。
+
+![操作画面](docs/images/main-window.png)
+
+キャリブレーション画面では、四隅を実物の鍵盤に合わせてドラッグします。
 
 ![キャリブレーション画面](docs/images/calibration.png)
 
